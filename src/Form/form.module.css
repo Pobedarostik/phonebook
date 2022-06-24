@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+.input {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(42, 42, 193);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+  
+.input:focus {
+    outline-color: orange;
+}
+
+.button{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 4px;
+    background-color: rgb(78, 205, 71);
+    color: white;
+
+}
